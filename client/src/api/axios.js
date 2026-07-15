@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://payment-portal-virid-two.vercel.app/api',
 });
 
 api.interceptors.request.use((config) => {
